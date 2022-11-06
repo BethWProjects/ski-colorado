@@ -1,3 +1,5 @@
+const { buildQueries } = require("@testing-library/react");
+
 const pathData = {
     data : [
       {
@@ -14,6 +16,7 @@ const pathData = {
         summit: "11,570 feet",
         cost: "&&&&",
         map: "https://skimap.org/data/507/3535/1664218364thumb.jpg",
+        difficulty: 'black',
       },
       {
         id: 2,
@@ -29,6 +32,7 @@ const pathData = {
         summit: "12,998 feet",
         cost: "$$$",
         map: "https://skimap.org/data/510/150/1665455999thumb.jpg",
+        difficulty: 'green',
       },
       {
         id: 3,
@@ -44,6 +48,7 @@ const pathData = {
         summit: "11,212 feet",
         cost: "$$$$",
         map: "https://skimap.org/data/1031/4070/1642702859thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 4,
@@ -59,6 +64,7 @@ const pathData = {
         summit: "12,510 feet",
         cost: "$$$$",
         map: "https://freeskier.com/wp-content/uploads/2016/10/AspenMap4.jpg",
+        difficulty: 'green',
       },
       {
         id: 5,
@@ -74,6 +80,7 @@ const pathData = {
         summit: "12,392 feet",
         cost: "$$$$",
         map: "https://skimap.org/data/1032/4070/1642702981thumb.jpg",
+        difficulty: 'black',
       },
       {
         id: 6,
@@ -89,6 +96,7 @@ const pathData = {
         summit: "9,900 feet",
         cost: "$$$$",
         map: "https://skimap.org/data/504/4070/1642703037thumb.jpg",
+        difficulty: 'green',
       },
       {
         id: 7,
@@ -104,6 +112,7 @@ const pathData = {
         summit: "11,570 feet",
         cost: "$$$",
         map: "https://skimap.org/data/519/2200/1632084626thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 8,
@@ -119,6 +128,7 @@ const pathData = {
         summit: "13,150 feet",
         cost: "$$$$",
         map: "https://skimap.org/data/517/2200/1637368445thumb.jpg",
+        difficulty: 'double-black',
       },
       {
         id: 9,
@@ -134,6 +144,7 @@ const pathData = {
         summit: "10,568 feet",
         cost: "$$$",
         map: "https://skimap.org/data/500/5095/1666756974thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 10,
@@ -149,6 +160,7 @@ const pathData = {
         summit: "12,060 feet",
         cost: "$$$",
         map: "https://skimap.org/data/503/5098/1666803394thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 11,
@@ -164,6 +176,7 @@ const pathData = {
         summit: "12,408 feet",
         cost: "$$",
         map: "https://skimap.org/data/513/3535/1667164199thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 12,
@@ -179,6 +192,7 @@ const pathData = {
         summit: "12,441 feet",
         cost: "$$$",
         map: "https://skimap.org/data/509/4768/1645487627thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 13,
@@ -194,6 +208,7 @@ const pathData = {
         summit: "13,010 feet",
         cost: "$$",
         map: "https://skimap.org/data/515/2200/1666208042thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 14,
@@ -209,6 +224,7 @@ const pathData = {
         summit: "11,440 feet",
         cost: "$$$",
         map: "https://skimap.org/data/497/2200/1635286154thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 15,
@@ -224,6 +240,7 @@ const pathData = {
         summit: "10,822 feet",
         cost: "$ - $$$$",
         map: "https://www.purgatory.ski/wp-content/uploads/sites/2/2022/07/Purgatory_Winter21-22_TrailMap_MapSide_Website.png",
+        difficulty: 'blue',
       },
       {
         id: 16,
@@ -239,6 +256,7 @@ const pathData = {
         summit: "13,487 feet",
         cost: "$$ - $$$$",
         map: "https://skimap.org/data/2280/3535/1573356158thumb.jpg",
+        difficulty: 'black',
       },
       {
         id: 17,
@@ -254,6 +272,7 @@ const pathData = {
         summit: "11,904 feet",
         cost: "$$",
         map: "https://skimap.org/data/505/3535/1634337883thumb.jpg",
+        difficulty: 'black',
       },
       {
         id: 18,
@@ -269,6 +288,7 @@ const pathData = {
         summit: "12,162 feet",
         cost: "$$$",
         map: "https://skimap.org/data/514/2200/1633561436thumb.jpg",
+        difficulty: 'black',
       },
       {
         id: 19,
@@ -284,6 +304,7 @@ const pathData = {
         summit: "10,600 feet",
         cost: "$$$",
         map: "https://skimap.org/data/508/2200/1636658008thumb.jpg",
+        difficulty: 'green',
       },
       {
         id: 20,
@@ -299,6 +320,7 @@ const pathData = {
         summit: "11,700 feet",
         cost: "$",
         map: "https://skimap.org/data/512/3535/1634338606thumb.jpg",
+        difficulty: 'green',
       },
       {
         id: 21,
@@ -314,6 +336,7 @@ const pathData = {
         summit: "9,850 feet",
         cost: "$",
         map: "https://coloradoskiresortmaps.com/images/powderhorn2/Powderhorn-Resort-Ski-Trail-Map1.jpg",
+        difficulty: 'blue',
       },
       {
         id: 22,
@@ -329,6 +352,7 @@ const pathData = {
         summit: "9,895 feet",
         cost: "$",
         map: "https://skimap.org/data/506/2200/1667685756thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 23,
@@ -344,6 +368,7 @@ const pathData = {
         summit: "11,952 feet",
         cost: "$$",
         map: "https://skimap.org/data/511/3535/1578624956.png",
+        difficulty: 'blue',
       },
       {
         id: 24,
@@ -359,6 +384,7 @@ const pathData = {
         summit: "9,202 feet",
         cost: "$$",
         map: "https://skimap.org/data/516/2200/1606486755thumb.jpg",
+        difficulty: 'blue',
       },
       {
         id: 25,
@@ -374,6 +400,7 @@ const pathData = {
         summit: "10,650 feet ",
         cost: "$",
         map: "https://skimap.org/data/1034/2200/1666984675thumb.jpg",
+        difficulty: 'green',
       },
       {
         id: 26,
@@ -389,6 +416,8 @@ const pathData = {
         summit: "7,136 feet",
         cost: "$",
         map: "https://skimap.org/data/498/2200/1638598523thumb.jpg",
+        difficulty: 'blue',
+
       },
       {
         id: 27,
@@ -404,6 +433,7 @@ const pathData = {
         summit: "9,596 feet",
         cost: "$",
         map: "https://images.squarespace-cdn.com/content/v1/5dade5d6f3de04278ab5ade9/1572538676771-GIKU5P0148RTON4N579G/image-asset.jpeg",
+        difficulty: 'blue',
       }
 ]
 }

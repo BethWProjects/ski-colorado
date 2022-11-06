@@ -13,7 +13,7 @@ const pathData = {
         base: "8,120 feet",
         summit: "11,570 feet",
         cost: "&&&&",
-        map: "",
+        map: "https://skimap.org/data/507/3535/1664218364thumb.jpg",
       },
       {
         id: 2,
@@ -28,7 +28,7 @@ const pathData = {
         base: "9,600 feet",
         summit: "12,998 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/510/150/1665455999thumb.jpg",
       },
       {
         id: 3,
@@ -43,7 +43,7 @@ const pathData = {
         base: "7,945 feet",
         summit: "11,212 feet",
         cost: "$$$$",
-        map: "",
+        map: "https://skimap.org/data/1031/4070/1642702859thumb.jpg",
       },
       {
         id: 4,
@@ -58,7 +58,7 @@ const pathData = {
         base: "8,104 feet",
         summit: "12,510 feet",
         cost: "$$$$",
-        map: "",
+        map: "https://freeskier.com/wp-content/uploads/2016/10/AspenMap4.jpg",
       },
       {
         id: 5,
@@ -73,7 +73,7 @@ const pathData = {
         base: "8,040 feet",
         summit: "12,392 feet",
         cost: "$$$$",
-        map: "",
+        map: "https://skimap.org/data/1032/4070/1642702981thumb.jpg",
       },
       {
         id: 6,
@@ -88,7 +88,7 @@ const pathData = {
         base: "7,870 feet",
         summit: "9,900 feet",
         cost: "$$$$",
-        map: "",
+        map: "https://skimap.org/data/504/4070/1642703037thumb.jpg",
       },
       {
         id: 7,
@@ -103,7 +103,7 @@ const pathData = {
         base: "9,280 feet",
         summit: "11,570 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/519/2200/1632084626thumb.jpg",
       },
       {
         id: 8,
@@ -118,7 +118,7 @@ const pathData = {
         base: "8,750 feet",
         summit: "13,150 feet",
         cost: "$$$$",
-        map: "",
+        map: "https://skimap.org/data/517/2200/1637368445thumb.jpg",
       },
       {
         id: 9,
@@ -133,7 +133,7 @@ const pathData = {
         base: "6,900 feet",
         summit: "10,568 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/500/5095/1666756974thumb.jpg",
       },
       {
         id: 10,
@@ -148,7 +148,7 @@ const pathData = {
         base: "9,000 feet",
         summit: "12,060 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/503/5098/1666803394thumb.jpg",
       },
       {
         id: 11,
@@ -163,7 +163,7 @@ const pathData = {
         base: "10,780 feet",
         summit: "12,408 feet",
         cost: "$$",
-        map: "",
+        map: "https://skimap.org/data/513/3535/1667164199thumb.jpg",
       },
       {
         id: 12,
@@ -178,7 +178,7 @@ const pathData = {
         base: "9,712 feet",
         summit: "12,441 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/509/4768/1645487627thumb.jpg",
       },
       {
         id: 13,
@@ -193,7 +193,7 @@ const pathData = {
         base: "10,800 feet",
         summit: "13,010 feet",
         cost: "$$",
-        map: "",
+        map: "https://skimap.org/data/515/2200/1666208042thumb.jpg",
       },
       {
         id: 14,
@@ -208,7 +208,7 @@ const pathData = {
         base: "8,100 feet ",
         summit: "11,440 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/497/2200/1635286154thumb.jpg",
       },
       {
         id: 15,
@@ -223,7 +223,7 @@ const pathData = {
         base: "8,793 feet",
         summit: "10,822 feet",
         cost: "$ - $$$$",
-        map: "",
+        map: "https://www.purgatory.ski/wp-content/uploads/sites/2/2022/07/Purgatory_Winter21-22_TrailMap_MapSide_Website.png",
       },
       {
         id: 16,
@@ -237,8 +237,8 @@ const pathData = {
           "https://travellemming.com/wp-content/uploads/Silverton-Mountain.jpg",
         base: "10,400 feet",
         summit: "13,487 feet",
-        cost: "$$-$$$$",
-        map: "",
+        cost: "$$ - $$$$",
+        map: "https://skimap.org/data/2280/3535/1573356158thumb.jpg",
       },
       {
         id: 17,
@@ -253,7 +253,7 @@ const pathData = {
         base: "10,300 feet",
         summit: "11,904 feet",
         cost: "$$",
-        map: "",
+        map: "https://skimap.org/data/505/3535/1634337883thumb.jpg",
       },
       {
         id: 18,
@@ -268,7 +268,7 @@ const pathData = {
         base: "9,375 feet",
         summit: "12,162 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/514/2200/1633561436thumb.jpg",
       },
       {
         id: 19,
@@ -283,7 +283,7 @@ const pathData = {
         base: "9,200 feet",
         summit: "10,600 feet",
         cost: "$$$",
-        map: "",
+        map: "https://skimap.org/data/508/2200/1636658008thumb.jpg",
       },
       {
         id: 20,
@@ -298,7 +298,7 @@ const pathData = {
         base: "10,500 feet",
         summit: "11,700 feet",
         cost: "$",
-        map: "",
+        map: "https://skimap.org/data/512/3535/1634338606thumb.jpg",
       },
       {
         id: 21,
@@ -313,7 +313,7 @@ const pathData = {
         base: "8,200 feet",
         summit: "9,850 feet",
         cost: "$",
-        map: "",
+        map: "https://coloradoskiresortmaps.com/images/powderhorn2/Powderhorn-Resort-Ski-Trail-Map1.jpg",
       },
       {
         id: 22,
@@ -328,7 +328,7 @@ const pathData = {
         base: "7,880 feet",
         summit: "9,895 feet",
         cost: "$",
-        map: "",
+        map: "https://skimap.org/data/506/2200/1667685756thumb.jpg",
       },
       {
         id: 23,
@@ -343,7 +343,7 @@ const pathData = {
         base: "10,790 feet",
         summit: "11,952 feet",
         cost: "$$",
-        map: "",
+        map: "https://skimap.org/data/511/3535/1578624956.png",
       },
       {
         id: 24,
@@ -358,7 +358,7 @@ const pathData = {
         base: "8,202 feet ",
         summit: "9,202 feet",
         cost: "$$",
-        map: "",
+        map: "https://skimap.org/data/516/2200/1606486755thumb.jpg",
       },
       {
         id: 25,
@@ -373,37 +373,37 @@ const pathData = {
         base: "10,050 feet ",
         summit: "10,650 feet ",
         cost: "$",
-        map: "",
+        map: "https://skimap.org/data/1034/2200/1666984675thumb.jpg",
       },
       {
         id: 26,
-        name: " Ski Resort",
-        location: "",
-        opening: "November 11, 2022",
-        snow: "Avg Snow Fall: 366 inches",
-        type: "",
-        overview: "",
+        name: "Howelsen Hill",
+        location: "38700 CO-82, Aspen, CO 81611",
+        opening: "TBD",
+        snow: "170 inches",
+        type: "Best long jumps",
+        overview: "Howelsen Hill in Steamboat Springs is the oldest ski resort in Colorado. It has also produced the most Olympic skiers. Howelsen has great night skiing and is cheaper than Steamboat Ski Resort.",
         image:
-          "",
-        base: "",
-        summit: "11,570 feet",
-        cost: "",
-        map: "",
+          "https://travellemming.com/wp-content/uploads/Howelsen-Hill.jpg",
+        base: "6,696",
+        summit: "7,136 feet",
+        cost: "$",
+        map: "https://skimap.org/data/498/2200/1638598523thumb.jpg",
       },
       {
         id: 27,
-        name: " Ski Resort",
-        location: "",
-        opening: "November 11, 2022",
-        snow: "Avg Snow Fall: 366 inches",
-        type: "",
-        overview: "",
+        name: "Kendall Mountain Ski Area",
+        location: "1 Kendall Pl, Silverton, CO 81433",
+        opening: "TBD",
+        snow: "200 inches",
+        type: "Best tiny community ski spot",
+        overview: "Kendall Mountain was a resort that closed in the 80s. The city of Silverton then bought and opened it for the community. It isn’t fancy, but it has one lift, a terrain park, and four trails. It’s a great spot for families who want to do a little skiing for barely more than it costs to go to the movies.",
         image:
-          "",
-        base: "",
-        summit: "11,570 feet",
-        cost: "",
-        map: "",
+          "https://images.squarespace-cdn.com/content/v1/5a0a46d37131a5757c46ceea/1542835550924-EWD12A8B6QF5XCLRZC8D/image-asset.jpeg",
+        base: "9,313 feet ",
+        summit: "9,596 feet",
+        cost: "$",
+        map: "https://images.squarespace-cdn.com/content/v1/5dade5d6f3de04278ab5ade9/1572538676771-GIKU5P0148RTON4N579G/image-asset.jpeg",
       }
 ]
 }

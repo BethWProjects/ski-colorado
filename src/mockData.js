@@ -1,7 +1,7 @@
 const { buildQueries } = require("@testing-library/react");
 
-const pathData = {
-    data : [
+const resortData = {
+    resorts : [
       {
         id: 1,
         name: "Vail Ski Resort",
